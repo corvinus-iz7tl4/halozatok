@@ -2,7 +2,10 @@
     box-sizing:border-box;
 }
 body {
-    text-align:center
+    text-align: center;
+    margin:0;
+    padding:0;
+    background-color: #D8C8B9;
 }
 
 #header {
@@ -12,7 +15,7 @@ body {
 #article {
     background-color: #D8C8B9;
     padding: 20px;
-    text-align:left
+    text-align: left;
 }
 #aside {
     background-color: #D7D0CA;
@@ -74,8 +77,8 @@ img {
     body {
         display: flex;
         flex-direction: column;
-        max-width: 1500px;
-        margin: auto;
+        max-width: 100%;
+        margin: 0;
     }
     #main {
         display: flex;
