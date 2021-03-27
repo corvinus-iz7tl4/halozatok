@@ -57,14 +57,18 @@ div {
     flex-grow:0;
     flex-shrink:0;
 }
-
+.kérdés {
+    background-color: powderblue;
+}
+.kérdés:hover {
+    color: white;
+    cursor: pointer;
+}
 .gomb {
     padding:20px;
     width:80px;
 }
-.kerdes{
 
-}
 .kattintható:hover {
     background-color: cornflowerblue;
     color: white;
@@ -75,4 +79,11 @@ div {
 }
 .rossz{
     background-color:red;
+}
+.újkérdés {
+    background-color: powderblue;
+}
+.újkérdés:hover {
+    color: white;
+    cursor: pointer;
 }
