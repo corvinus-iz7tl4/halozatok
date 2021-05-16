@@ -30,7 +30,7 @@ function init() {
     if (localStorage.getItem("nextQuestion")) nextQuestion = parseInt(localStorage.getItem("nextQuestion"));
 
     //Kezdő Kérdéslista letöltése
-    if (hotList.length === 0) {
+    if (!localStorage.getItem("hotlist")) {
         for (var i = 0; i < questionsInHotList; i++) {
             kérdésBetöltés(nextQuestion, i);
             nextQuestion++;
